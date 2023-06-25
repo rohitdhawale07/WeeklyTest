@@ -1,0 +1,280 @@
+*{
+   margin: 0;
+   padding: 0; 
+   box-sizing: border-box;
+}
+body{
+    font-family: 'roboto', sans-serif;
+}
+
+.nav_bar{
+    color: rgb(41, 30, 30);
+    font-size: 15px;
+    word-spacing: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+.nav_center{  
+      color: #262626;
+    cursor: pointer;
+    width: 640px;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+}
+.nav_right{
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.all_microsoft{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.material-symbols-outlined{
+padding: 0 10px;
+cursor: pointer;
+}
+.display{
+    position: relative;
+    text-align: center;
+    color: black;
+    
+}
+.img_text{
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    left: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 100px;
+    transform: translate(-30%, -50%);
+    line-height: 30px;
+}
+.img_text button{
+    width: fit-content;
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgb(52, 52, 141);
+    color: white;
+}
+.img_text button:hover{
+background-color: blue;
+}
+.img_text h1{    
+    font-size: 1.8125rem;
+    margin-bottom: 1rem;
+}
+.img_text span{
+    margin-bottom: 1.5rem;
+}
+.display .discrip{
+    font-size: large;
+    text-align: left;
+    margin-bottom: 1rem;
+    word-spacing: 3px;
+}
+.buttons{
+    text-align: center;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+}
+.choose_devices{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+figcaption{
+    text-align: center;
+    color: rgb(52, 52, 128);
+    border-bottom: 1px solid rgb(52, 52, 128);
+}
+.choose_devices div{
+    padding: 0 40px;
+}
+.image1 img{
+    margin-bottom: 5px;
+    margin-left: 82px;
+}
+.image2 img{
+    margin-bottom: 5px;
+    margin-left: 75px;
+}
+.image3 img{
+    margin-bottom: 5px;
+    margin-left: 42px;
+}
+.image4 img{
+    margin-bottom: 5px;
+    margin-left: 42px;
+}
+.series{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    margin-top: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-bottom: 3rem;
+    cursor: pointer;
+}
+.series.item{
+    display: grid;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 10px;
+    position: relative;
+    word-wrap: break-word;
+    line-height: 3rem;
+}
+.series.item p{
+    display: grid;
+    align-items: flex-start;
+    justify-content: center;
+    word-wrap: break-word;
+}
+.series .item div{
+    margin: 20px;
+    padding: 15px 0;
+}
+ .item div p{
+    margin: 20px 0;
+ }
+.series .item div a{
+    margin: 20px 0px;
+    font-weight: bold;
+    color: #0067B8;
+    text-decoration: none;
+}
+.series .item div i{
+    color: #0067B8; 
+}
+.game_pass{
+    position: relative;
+}
+.game_pass img{
+    width: 100vw;
+    margin-bottom: 3rem;
+}
+.pass_ult{
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    line-height: 2rem;
+}
+.pass_ult h4{
+    color: white;
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.pass_ult p{
+    color: white;
+    word-wrap: break-word;
+}
+.pass_ult button{
+    margin-top: 20px;
+    font-size: 20px;
+    width: 100px;
+    height: 50px;
+    background-color: #0067b8;
+    color: white;
+}
+.business{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: -10px;
+}
+.products2{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    margin-top: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.Follow {
+    display: flex;
+    width: 100%;
+    margin-top: 40px;
+    margin-left: 70px;
+}
+.Follow div {
+    font-size: 22px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.last-section {
+    padding-top: 5rem;
+    margin-top: 3rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(242, 242, 242);
+    text-align: initial;
+    padding-bottom: 1rem;
+}
+.Footer {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-left: 5rem;
+    font-size: 15px;
+}
+.same {
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+ul {
+    list-style-type: none;
+}
+.Footer ul li a {
+    line-height: 1.5rem;
+    word-spacing: 0.2rem;
+    text-decoration: none;
+    color: rgb(111 99 99);
+    word-wrap: break-word;
+    font-size: small;
+}
+
+.vgt {
+    width: 100%;
+    height: 20px;
+    background-color: #F2F2F2;
+}
+.foot {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #F2F2F2;
+}
+.india {
+    width: 30%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: small;
+}
+.privacy {
+    width: 20%;
+    font-size: small;
+}
+.lts {
+    width: 50%;
+    display: flex;
+    font-size: small;
+    justify-content: right;
+    gap: 10px;
+}
